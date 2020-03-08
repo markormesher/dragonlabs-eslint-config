@@ -36,7 +36,13 @@ module.exports = {
     "import/no-named-as-default-member": ["warn"],
     "import/no-unresolved": ["error"],
     "import/no-useless-path-segments": ["warn"],
-    "import/order": ["warn"]
+    "import/order": ["warn"],
+    "prettier/prettier": ["error",  {
+      "printWidth": 120,
+      "semi": true,
+      "trailingComma": "all",
+      "arrowParens": "always"
+    }]
   },
   "overrides": [
     {
