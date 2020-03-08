@@ -1,11 +1,14 @@
 {
   "name": "eslint-config-mormesher",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "https://github.com/markormesher/eslint-config-mormesher",
   "author": "Mark Ormesher",
   "license": "Apache-2.0",
-  "files": ["index.js", "prettier.js"],
+  "files": [
+    "index.js",
+    "prettier.js"
+  ],
   "peerDependencies": {
     "eslint": "^6.8.0",
     "prettier": "^1.19.1"
