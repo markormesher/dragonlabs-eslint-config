@@ -6,6 +6,10 @@
   "author": "Mark Ormesher",
   "license": "Apache-2.0",
   "files": ["index.js", "prettier.config.js"],
+  "peerDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.22.0",
     "@typescript-eslint/parser": "^2.22.0",
