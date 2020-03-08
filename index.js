@@ -20,7 +20,8 @@ module.exports = {
   "plugins": [
     "@typescript-eslint",
     "react",
-    "import"
+    "import",
+    "prettier"
   ],
   "rules": {
     "no-unused-vars": ["error", { "ignoreRestSiblings": true }],
