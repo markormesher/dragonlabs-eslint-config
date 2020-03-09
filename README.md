@@ -10,7 +10,7 @@ Install with yarn:
 
     yarn add -D @dragonlabs/eslint-config
 
-Install with NPM:
+Or install with NPM:
 
     npm install --save-dev @dragonlabs/eslint-config
 
