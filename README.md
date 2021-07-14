@@ -1,3 +1,4 @@
+![CircleCI](https://img.shields.io/circleci/build/github/markormesher/dragonlabs-eslint-config)
 ![npm](https://img.shields.io/npm/v/@dragonlabs/eslint-config)
 
 # @dragonlabs/eslint-config
