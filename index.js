@@ -48,7 +48,17 @@ module.exports = {
         "plugin:import/typescript",
       ],
       rules: {
-        "@typescript-eslint/interface-name-prefix": ["error", { prefixWithI: "always" }],
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            selector: "interface",
+            format: ["PascalCase"],
+            custom: {
+              regex: "^I[A-Z]",
+              match: true,
+            },
+          },
+        ],
         "@typescript-eslint/no-use-before-define": ["error", { functions: false }],
         "@typescript-eslint/no-unused-vars": ["error", { ignoreRestSiblings: true }],
         "@typescript-eslint/no-for-in-array": ["error"],
