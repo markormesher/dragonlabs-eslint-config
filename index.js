@@ -1,4 +1,5 @@
 // TODO: find a way to enforce readonly equivalent to tslint-immutable/readonly-keyword
+// TODO: detect whether this is a react project
 module.exports = {
   extends: ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
   env: {

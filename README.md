@@ -11,9 +11,10 @@ Install with yarn:
 
     yarn add -D @dragonlabs/eslint-config
 
-Or install with NPM:
+And install dependencies:
 
-    npm install --save-dev @dragonlabs/eslint-config
+    yarn add -D install-peerdeps
+    yarn install-peerdeps @dragonlabs/eslint-config --yarn --only-peers
 
 Add it to `.eslintrc.json`:
 
