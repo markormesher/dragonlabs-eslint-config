@@ -1,11 +1,13 @@
 {
   "name": "@dragonlabs/eslint-config",
-  "version": "0.0.12-rc1",
+  "version": "0.0.12",
   "main": "index.js",
   "repository": "https://github.com/markormesher/eslint-config",
   "author": "Mark Ormesher",
   "license": "Apache-2.0",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint index.js"
   },
