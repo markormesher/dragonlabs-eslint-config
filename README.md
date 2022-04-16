@@ -9,12 +9,12 @@ My standard ESLint/Prettier config for TypeScript/React/SCSS projects. Published
 
 Install with yarn:
 
-    yarn add -D @dragonlabs/eslint-config
+    yarn add --dev @dragonlabs/eslint-config
 
 And install dependencies:
 
-    yarn add -D install-peerdeps
-    yarn install-peerdeps @dragonlabs/eslint-config --yarn --only-peers
+    yarn add --dev install-peerdeps
+    yarn install-peerdeps @dragonlabs/eslint-config --yarn --dev --only-peers
 
 Add it to `.eslintrc.json`:
 
