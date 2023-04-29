@@ -3,7 +3,7 @@ version: 2
 defaults: &defaults
   working_directory: ~/eslint-config
   docker:
-    - image: circleci/node:dubnium
+    - image: circleci/node:hydrogen
 
 jobs:
   setup:
