@@ -9,18 +9,25 @@ My standard ESLint/Prettier config for TypeScript/React/SCSS projects. Published
 
 Install with yarn:
 
-    yarn add --dev @dragonlabs/eslint-config
-
-And install dependencies:
-
-    yarn add --dev install-peerdeps
-    yarn install-peerdeps @dragonlabs/eslint-config --yarn --dev --only-peers
+```shell
+yarn add --dev @dragonlabs/eslint-config
+```
 
 Add it to `.eslintrc.json`:
 
-    {
-        "extends": "@dragonlabs/eslint-config"
-    }
+```json
+{
+  "extends": "@dragonlabs/eslint-config"
+}
+```
+
+### Dependencies
+
+These are peer dependencies, expected to be installed in the project but not provided by this package.
+
+- [Prettier](https://www.npmjs.com/package/prettier) @ ^2.3.2
+- [ESLint](https://www.npmjs.com/package/eslint) @ ^7.0.0
+- [TypeScript](https://www.npmjs.com/package/typescript) @ >=3.3.1, <5.1.0
 
 ## Why "dragonlabs"?
 
