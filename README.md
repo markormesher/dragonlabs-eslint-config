@@ -25,7 +25,7 @@ Add it to `.eslintrc.json`:
 
 These are peer dependencies, expected to be installed in the project but not provided by this package.
 
-- [Prettier](https://www.npmjs.com/package/prettier) @ >=2.3.2, <3.0.0
+- [Prettier](https://www.npmjs.com/package/prettier) @ >=3.0.0, <4.0.0
 - [ESLint](https://www.npmjs.com/package/eslint) @ >= 7.0.0, <9.0.0
 - [TypeScript](https://www.npmjs.com/package/typescript) @ >=3.3.1, <5.1.0
 
