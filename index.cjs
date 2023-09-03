@@ -61,6 +61,9 @@ module.exports = {
         // unresolvable paths will cause parser and compiler errors anyway, so we can turn off the rule
         "import/no-unresolved": "off",
 
+        // prefer types over interfaces
+        "@typescript-eslint/consistent-type-definitions": ["error", "type"],
+
         // assert a stricter naming convention
         "@typescript-eslint/naming-convention": [
           "error",
