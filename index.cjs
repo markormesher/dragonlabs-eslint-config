@@ -63,17 +63,6 @@ module.exports = {
 
         // prefer types over interfaces
         "@typescript-eslint/consistent-type-definitions": ["error", "type"],
-
-        // assert a stricter naming convention
-        "@typescript-eslint/naming-convention": [
-          "error",
-          {
-            selector: "variable",
-            types: ["boolean"],
-            format: ["PascalCase"],
-            prefix: ["is", "should", "has", "can", "did", "will"],
-          },
-        ],
       },
     },
   ],
