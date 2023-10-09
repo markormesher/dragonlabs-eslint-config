@@ -1,6 +1,6 @@
 {
   "name": "@dragonlabs/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/markormesher/dragonlabs-eslint-config",
   "author": "Mark Ormesher",
   "license": "Apache-2.0",
