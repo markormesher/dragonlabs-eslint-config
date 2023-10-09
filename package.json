@@ -1,34 +1,8 @@
 {
   "name": "@dragonlabs/eslint-config",
   "version": "0.0.25",
-  "main": "index.cjs",
   "repository": "https://github.com/markormesher/dragonlabs-eslint-config",
   "author": "Mark Ormesher",
   "license": "Apache-2.0",
-  "files": [
-    "index.cjs"
-  ],
-  "scripts": {
-    "lint": "eslint index.cjs"
-  },
-  "peerDependencies": {
-    "eslint": ">=7.0.0 <9.0.0",
-    "prettier": ">=3.0.0 <4.0.0",
-    "typescript": ">=3.3.1 <5.1.0"
-  },
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-import": "^2.28.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-react": "^7.33.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.0.0",
-    "lockfile-lint": "^4.6.2",
-    "prettier": "^3.0.0",
-    "typescript": ">=3.3.1 <5.1.0",
-    "yarn-deduplicate": "^6.0.2"
-  }
+  "packageManager": "yarn@3.6.4"
 }
