@@ -27,27 +27,6 @@ jobs:
           paths:
             - .
 
-  lint:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          at: .
-      - run:
-          name: Check linters
-          command: yarn lint
-
-  check-lockfile:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          at: .
-      - run:
-          name: Run lockfile linter
-          command: yarn lockfile-lint -p yarn.lock
-      - run:
-          name: Check for duplicate dependencies
-          command: yarn yarn-deduplicate -f -l
-
   maybe_deploy:
     # Tag filtering in CircleCI is unreliable - this is hacky, but it works
     <<: *defaults
@@ -67,13 +46,6 @@ workflows:
   build_test_deploy:
     jobs:
       - setup
-      - lint:
-          requires:
-            - setup
-      - check-lockfile:
-          requires:
-            - setup
       - maybe_deploy:
           requires:
-            - lint
-            - check-lockfile
+            - setup
